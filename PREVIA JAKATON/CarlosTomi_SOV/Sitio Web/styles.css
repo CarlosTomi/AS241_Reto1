@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center; /*TEXTO ALINEADO AL CENTRO */
+}
+
+/* ENCABEZADO */
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #005284;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo {
+    max-width: 250px; /* AQUI ELEGIMOS EL TAMAÑO, EN ESTE CASO DEL LOGO VG */
+    height: auto; 
+}
+
+h1 {
+    margin: 0; /* PARA ELIMINAR EL MARGEN */
+}
+
+/*TITULO */
+h2 {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* DEBAJO DEL ENCABEZADO */
+h3 {
+    font-size: 20px;
+    text-align: left;
+    margin: 30px; 
+    color: #ff0303; 
+}
+
+h4 {
+    font-size: 20px;
+    text-align: left;
+    margin: 0px; 
+    color: #1c03ff; 
+}
+
+/*OTRO CONTENEDOR EN ESTE CASO EL DE TEXTO */
+.texto-container {
+    text-align: left;
+    margin: 50px;
+    font-size: 20px;
+    line-height: 1.6; 
+    color: #2c2c2c;
+    font-weight: normal;
+    margin-bottom: 1px;
+}
+
+/* CONTENIDO DE HISTOIA*/
+.historico-container {
+    display: flex;
+    justify-content: space-between; /* ALINEAR EL TEXTO DEBAJO DEBAJO DE LA IMAGEN*/
+    align-items: left;
+    margin-top: 5px;
+    margin: 0px;
+}
+
+.texto-historico {
+    flex: 1; 
+    margin-right: 10px;
+    text-align: justify; 
+}
+
+/* IMAGEN EN ASPECTO HISTORIA */
+.historia-img {
+    max-width: 350px; 
+    height: auto;
+}
+
+/*BOTON LEER MAS CARACTERISTICAS Q QUIERO Q TENGA */
+#btnLeerMas { 
+    margin-top: 0px;
+    padding: 10px 20px;
+    background-color: #f7a60e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#btnLeerMas:hover {
+    background-color: #f7a60e; /* ACA SE ELIJE COLOR QUE SEA MAS COMODO */
+}
+
+/* EDICION DE LA PRIMERA IMAGEN DE FONDO */
+.main-image {
+    max-width: 100%; 
+    height: auto;
+}
+
+/* BOTONES DE NAVEGACION */
+.nav-buttons {
+    display: flex;
+    gap: 30px; 
+}
+
+.nav-buttons button {
+    background-color: #f7a60e;
+    color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px; /* REDONDEO DE ESQUINAS EN LOS BOTONES DE NAVEGACION */
+    cursor: pointer;
+}
+
+.nav-buttons button:hover {
+    background-color: #e78122; /* CAMBIO DE COLOR DE LOS BOTONES */
+}
+
+
+main {
+    margin-top: 10px;
+}
+
+/* CARACTERISTICAS PARA LAS IMAGENES*/
+img {
+    margin-top: 10px;
+    max-width: 250%; 
+    height: auto;
+}
+
+/* PIE DE PAGINA */
+footer {
+    margin-top: 50px;
+    padding: 10px 0;
+    background-color:#005284;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.organigrama {
+    text-align: left;
+    margin: 20px 50px;
+}
+
+/*Link del canal de yt*/
+.youtube-channel {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.youtube-channel a {
+    color: #f71e0e;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.youtube-channel a:hover {
+    text-decoration: underline;
+}
+
+h3.mision-subtitulo {
+    color: #e79909; /
+}
+
+/* Estilo para el subtítulo Visión */
+h3.vision-subtitulo {
+    color: #e79909; 
+}
+
+h3.organigrama-subtitulo {
+    color: #e79909; 
+}
+
+/*Final*/
