@@ -1,0 +1,50 @@
+table {
+    width: 50%;
+    margin: 10 auto;
+    border-collapse: collapse;
+}
+
+th,td {
+    padding: 10px;
+    border: 5px solid #ccae03;
+}
+
+#lirio {
+    border: #c943ac;
+    border-collapse: collapse;
+}
+
+#rosa {
+    border: #3bb67d;
+    border-collapse: collapse;
+}
+
+#tulipan {
+    border: #5ec943;
+    border-collapse: collapse;
+}
+
+h1 {
+    color: rgb(19, 102, 63);
+}
+
+header {
+    background-color: #5ec943;
+     
+}
+
+#florales {
+    background-color: #71ff4e6c;
+}
+
+br {
+    background-color: #167000;
+}
+footer{
+    background-color: #5ec943;
+    background: #3bb67d;
+}
+
+#final {
+    background-color: #ccae03;
+}
