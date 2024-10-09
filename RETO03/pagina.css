@@ -1,0 +1,88 @@
+.navbar {
+    width: 100%;
+    padding: 10px; 
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #005f73; 
+    position: relative; 
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    text-decoration: solid;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.navbar ul li a:hover {
+    background: #ffba08;
+    color: #ffba08;
+}
+
+* .Portada {
+    background: url(Images/imagen1.png) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0px;
+    align-items: center;
+}
+.logo{
+    height: 80px;
+    width: auto;
+}
+.logo1{
+    height: 50px;
+    width: auto;
+}
+.logo2{
+    height: 50px;
+    width: auto;
+}
+* h1 {
+    font-size: 80px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0); 
+    position: relative;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar li:hover {
+    background-color: #ffdb0eb7;
+}
+@media screen and (max-width: 768px) {
+}
+.footer{
+    background-color: #005f73;
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+.navbar li{
+    font-size: large;
+    font-style: inherit;
+    align-items: center;
+}
