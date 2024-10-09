@@ -20,7 +20,6 @@
 
 .navbar ul li a {
     text-decoration: solid;
-    text-transform: uppercase;
     color: aliceblue;
     font-weight: 600;
     padding: 10px;
@@ -85,4 +84,13 @@
     font-size: large;
     font-style: inherit;
     align-items: center;
+}
+
+header .icono1{
+    height: 50px;
+    width: auto;
+}
+header .icono2{
+    height: 50px;
+    width: auto;
 }
