@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VENTAS A BUEN PRECIO</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <div class="theme-toggle">
+        <button onclick="toggleTheme()">🌞 / 🌜</button>
+    </div>
+    
+<header>
+    <div class="logo">
+        <img src="ZMultimedia/paginaLogo.png" alt="Logo" width="70" height="50">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Tienda</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#" id="cart-button">Carrito (<span id="cart-count">0</span>)<img src="ZMultimedia/carrito.png" alt="" width="20" height="20"></a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="banner">
+        <img src="ZMultimedia/BANNER.jpg" alt="Promoción">
+        <div class="banner-text">
+            <h1>¡GRANDES PROMOCIONES!</h1>
+            <p>Compra ahora y recibe un descuento especial</p>
+        </div>
+    </section>
+
+    <section class="product-details">
+        <div class="product-gallery">
+            <input type="radio" id="img1" name="carousel" checked>
+            <input type="radio" id="img2" name="carousel">
+            <input type="radio" id="img3" name="carousel">
+            
+            <div class="images">
+                <label for="img1"><img src="ZMultimedia/PRODUCTO 1.png" alt="Producto Imagen 1"></label>
+                <label for="img2"><img src="ZMultimedia/PRODUCTO 2.png" alt="Producto Imagen 2"></label>
+                <label for="img3"><img src="ZMultimedia/PRODUCTO 3.png" alt="Producto Imagen 3"></label>
+            </div>
+    
+            <div class="thumbnails">
+                <label for="img1"><img src="ZMultimedia/PRODUCTO 1.png" alt="Miniatura 1"></label>
+                <label for="img2"><img src="ZMultimedia/PRODUCTO 2.png" alt="Miniatura 2"></label>
+                <label for="img3"><img src="ZMultimedia/PRODUCTO 3.png" alt="Miniatura 3"></label>
+            </div>
+        </div>
+    
+        <div class="product-info">
+            <h1>Producto Destacado</h1>
+            <p class="description">Productos de buena calidad a un precio Accesible, 3 productos a un solo precio</p>
+            <p class="price">S/. 49.99</p>
+            <label for="quantity">Cantidad:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1">
+            <button class="add-to-cart" onclick="addToCart()">Agregar al carrito</button>
+        </div>
+    </section>
+
+    <div id="cart-popup" class="cart-popup">
+        <h2>Tu Carrito</h2>
+        <ul id="cart-items"></ul>
+        <button onclick="closeCart()">Cerrar</button>
+    </div>
+    
+</main>
+
+
+<footer>
+    <p>&copy; 2024 TOMI PRODUCTOS. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+
+</html>
