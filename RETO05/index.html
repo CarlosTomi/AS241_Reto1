@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="nav-content">
+            <div class="logo">Mi Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <button id="theme-toggle">🌙</button>
+        </div>
+    </nav>
+    <section id="home">
+        <video autoplay muted loop id="background-video">
+            <source src="Videos/fondo.mp4" type="video/mp4">
+        </video>
+        <div class="container">
+            <h1 class="glitch-text">Carlos Tomi</h1>
+            <p class="subtitle">Desarrollador Web</p>
+            <p class="description">
+                Apasionado por crear experiencias web únicas y funcionales.
+                Especializado en desarrollo frontend y backend con un enfoque en
+                soluciones creativas y eficientes. Con habilidades en HTML, CSS,
+                JavaScript y mucho más que conocerás en esta web.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Proyectos realizados</h2>
+            <div class="projects-grid">
+                <!-- todo en jsa-->
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Habilidades Técnicas</h2>
+            <div class="skills-container">
+                <!-- jssd -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contactame</h2>
+            <div class="contact-content">
+                <form id="contact-form">
+                    <input type="text" placeholder="Nombre" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Mensaje" required></textarea>
+                    <button type="submit">Enviar Mensaje</button>
+                </form>
+                <div class="social-links">
+                    <a href="https://github.com/CarlosTomi" class="social-link">GitHub</a>
+                    <a href="https://www.linkedin.com/in/carlos-joel-tomi-chanta-8718a82bb/"
+                        class="social-link">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
